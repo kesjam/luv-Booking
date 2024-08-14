@@ -1,43 +1,34 @@
-# Dependency directories
-node_modules/
-.yarn/
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Next.js build output
-.next/
-out/
+# Testing
+/coverage
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Next.js
+/.next/
+/out/
 
-# IDE and editor directories
-.idea/
-.vscode/
-*.swp
-*.swo
+# Production
+/build
 
-# OS generated files
+# Misc
 .DS_Store
-Thumbs.db
+*.pem
 
-# TypeScript type checking
-*.tsbuildinfo
-
-# TailwindCSS JIT generated styles
-tailwind.css
-safelist.txt
-
-# Logs
-logs/
-*.log
+# Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Miscellaneous
-.cache/
-dist/
-*.gz
+# Local env files
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
